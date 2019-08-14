@@ -40,7 +40,7 @@ export default function styleConstructor(theme = {}) {
       textAlign: 'center',
       color: '#33789E',
       fontSize: 14,
-      fontWeight: 500,
+      fontWeight: '500',
       textTransform: 'uppercase',
       letterSpacing: 0.01
     },
