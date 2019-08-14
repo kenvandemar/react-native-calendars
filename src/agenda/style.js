@@ -16,6 +16,9 @@ export default function styleConstructor(theme = {}) {
       position:'absolute',
       height:'100%',
       width:'100%',
+      borderStyle: 'solid',
+      borderBottomWidth: 1,
+      borderBottomColor: '#99BBCF'
     },
     calendar: { // not in use
       flex: 1,
@@ -35,11 +38,11 @@ export default function styleConstructor(theme = {}) {
     weekday: {
       width: 32,
       textAlign: 'center',
-      color: '#99BBCF',
-      fontSize: appStyle.textDayHeaderFontSize,
-      fontFamily: appStyle.textDayHeaderFontFamily,
-      fontWeight: '700',
-      textTransform: 'uppercase'
+      color: '#33789E',
+      fontSize: 14,
+      fontWeight: 500,
+      textTransform: 'uppercase',
+      letterSpacing: 0.01
     },
     reservations: {
       flex: 1,

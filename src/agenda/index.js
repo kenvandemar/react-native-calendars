@@ -381,9 +381,6 @@ export default class AgendaView extends Component {
       height: KNOB_HEIGHT,
       top: scrollPadPosition,
       left: (this.viewWidth - 80) / 2,
-      borderStyle: 'solid',
-      borderBottomWidth: 1,
-      borderBottomColor: '#99BBCF'
     };
 
     let knob = (<View style={this.styles.knobContainer}/>);
