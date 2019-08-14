@@ -35,10 +35,11 @@ export default function styleConstructor(theme = {}) {
     weekday: {
       width: 32,
       textAlign: 'center',
-      color: appStyle.textSectionTitleColor,
+      color: '#99BBCF',
       fontSize: appStyle.textDayHeaderFontSize,
       fontFamily: appStyle.textDayHeaderFontFamily,
-      fontWeight: appStyle.textDayHeaderFontWeight
+      fontWeight: '700',
+      textTransform: 'uppercase'
     },
     reservations: {
       flex: 1,
