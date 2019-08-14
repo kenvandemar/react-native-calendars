@@ -15,10 +15,7 @@ export default function styleConstructor(theme = {}) {
       justifyContent: 'flex-end',
       position:'absolute',
       height:'100%',
-      width:'100%',
-      borderStyle: 'solid',
-      borderBottomWidth: 1,
-      borderBottomColor: '#99BBCF'
+      width:'100%'
     },
     calendar: { // not in use
       flex: 1,
@@ -39,7 +36,7 @@ export default function styleConstructor(theme = {}) {
       width: 32,
       textAlign: 'center',
       color: '#33789E',
-      fontSize: 14,
+      fontSize: 13,
       fontWeight: '500',
       textTransform: 'uppercase',
       letterSpacing: 0.01
