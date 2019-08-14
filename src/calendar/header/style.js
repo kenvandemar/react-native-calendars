@@ -45,10 +45,12 @@ export default function(theme={}) {
       marginBottom: 7,
       width: 32,
       textAlign: 'center',
-      fontSize: appStyle.textDayHeaderFontSize,
       fontFamily: appStyle.textDayHeaderFontFamily,
-      fontWeight: appStyle.textDayHeaderFontWeight,
-      color: appStyle.textSectionTitleColor
+      color: '#33789E',
+      fontSize: 13,
+      fontWeight: '500',
+      textTransform: 'uppercase',
+      letterSpacing: 0.01
     },
     ...(theme[STYLESHEET_ID] || {})
   });
